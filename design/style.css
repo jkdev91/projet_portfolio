@@ -208,6 +208,7 @@ span {
 
 .portfolio h2 {
     margin-top: 4rem;
+    margin-bottom: 3rem;
 }
 
 .portfolio-container {
@@ -267,12 +268,15 @@ span {
 
 .portfolio-layer a {
     display: inline-flex;
+    gap: .6rem;
     justify-content: center;
     align-items: center;
-    width: 5rem;
-    height: 5rem;
-    background: var(--text-color);
+    /* width: 5rem; */
+    /* height: 5rem; */
+    /* background: var(--text-color); */
     border-radius: 50%;
+    /* background: none */
+    color: var(--snd-bg-color);
 }
 
 .portfolio-layer a i {
